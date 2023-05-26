@@ -24,7 +24,7 @@
     border-radius: 34%;
     margin-left: 0.5%;
     cursor: pointer;
-    transition: color .5s;
+    transition: color .3s;
 }
 
 .searchbar button:hover {
