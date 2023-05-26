@@ -1,0 +1,32 @@
+/* importing font */
+
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Stylish&display=swap');
+
+/* global */
+
+* {
+    box-sizing: border-box;
+    font-family: "Stylish";
+}
+
+/* searchbar component */
+.searchbar input {
+    width: 25%;
+    background-color: black;
+    color: red;
+}
+
+.searchbar button {
+    background-color: black;
+    color: red;
+    border: 0;
+    padding: 0.4%;
+    border-radius: 34%;
+    margin-left: 0.5%;
+    cursor: pointer;
+    transition: color .5s;
+}
+
+.searchbar button:hover {
+    color: yellow;
+}
